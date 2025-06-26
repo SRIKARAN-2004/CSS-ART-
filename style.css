@@ -1,0 +1,154 @@
+body {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.mario {
+  position: relative;
+  width: 260px;
+  height: 280px;
+}
+
+/* Hat */
+.hat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: red;
+  border-top-left-radius: 130px 100px;
+  border-top-right-radius: 130px 100px;
+  z-index: 2;
+}
+
+.hat-rim {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  width: 230px;
+  height: 40px;
+  background: red;
+  border-radius: 40px;
+  z-index: 3;
+}
+
+/* Face */
+.face {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background: #fcd5b5;
+  border-radius: 50% / 40%;
+  z-index: 1;
+}
+
+/* Ears */
+.ear {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  background: #fcd5b5;
+  border-radius: 50%;
+  top: 30px;
+}
+
+.left-ear {
+  left: -20px;
+}
+
+.right-ear {
+  right: -20px;
+}
+
+/* Eyes */
+.eye {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  top: 40px;
+}
+
+.left-eye {
+  left: 60px;
+}
+
+.right-eye {
+  right: 60px;
+}
+
+.pupil {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  background: #0059b3;
+  border-radius: 50%;
+  top: 15px;
+  left: 12px;
+}
+
+/* Nose */
+.nose {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  background: #f4b295;
+  border-radius: 50%;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+}
+
+/* Mustache */
+.mustache {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 25px;
+  background: #3b2e2a;
+  border-radius: 20px;
+  z-index: 3;
+}
+
+/* Mouth */
+.mouth {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  border-bottom: 5px solid #9e3b3b;
+  border-radius: 0 0 50px 50px;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* M Logo */
+.m-logo {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  color: red;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  z-index: 5;
+  box-shadow: 0 0 2px #000;
+}
