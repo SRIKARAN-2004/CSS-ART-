@@ -1,27 +1,19 @@
-# 🧢 pikachu Face with Pure HTML & CSS
+This project recreates Totoro, the beloved Studio Ghibli character, using only HTML and CSS. It demonstrates advanced CSS techniques including gradients, animations, transformations, and layering to achieve a detailed and dynamic character representation without any images or SVGs.
 
-This project recreates the iconic face of **Mario** using only **HTML** and **CSS**, without any images, SVGs, or JavaScript. It demonstrates how creative styling with simple elements can bring a beloved game character to life.
+🚀 Features
+Fully responsive and scalable Totoro art.
 
----
+Breathing animation on Totoro's belly.
 
-## 🔧 Tech Stack
+Blinking eyes for realism.
 
-- ✅ HTML5 — structured with only `<div>` elements  
-- ✅ CSS3 — styled using:
-  - `border-radius`
-  - `box-shadow`
-  - `absolute` positioning
-  - `transform`
-  - `linear-gradient`
+Floating leaves and wind effect for environmental aesthetics.
 
----
+Gentle sway animation on hover to add interactivity.
 
-## ✨ Features
+💻 Technologies Used
+HTML5 for semantic structure.
 
-- 🎩 Mario’s classic red hat with the “M” logo
-- 👀 Big expressive eyes with blue pupils
-- 👃 Round nose and iconic mustache
-- 😄 Smiling mouth and peach-toned face
-- 🧱 Entirely built with divs — no images used
+CSS3 for styling, gradients, animations, and transformations.
 
-
+Keyframe animations for breathing, blinking, floating leaves, and wind effects
