@@ -1,19 +1,19 @@
-This project recreates Totoro, the beloved Studio Ghibli character, using only HTML and CSS. It demonstrates advanced CSS techniques including gradients, animations, transformations, and layering to achieve a detailed and dynamic character representation without any images or SVGs.
+# Doraemon Pure CSS Art
 
-🚀 Features
-Fully responsive and scalable Totoro art.
+This project recreates **Doraemon**, the popular cartoon character, using **only HTML and CSS**. No images or external libraries are used. It is a great demonstration of CSS art fundamentals, positioning, and creativity.
 
-Breathing animation on Totoro's belly.
+## 🚀 Features
 
-Blinking eyes for realism.
+- Uses **div and span elements only**
+- Clean, scalable CSS structure
+- Includes **eyes, nose, whiskers, mouth, belt, and bell**
+- Fully responsive layout for testing in browser
 
-Floating leaves and wind effect for environmental aesthetics.
 
-Gentle sway animation on hover to add interactivity.
 
-💻 Technologies Used
-HTML5 for semantic structure.
+## 🎯 Learning Outcomes
 
-CSS3 for styling, gradients, animations, and transformations.
+- Practiced **HTML structure with nested divs**
+- Learned **CSS absolute positioning and border-radius**
+- Understood how to build **art with no images**
 
-Keyframe animations for breathing, blinking, floating leaves, and wind effects
